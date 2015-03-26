@@ -305,7 +305,7 @@ slides > slide:not(.nobackground):before {
   position: absolute;
   bottom: 20px;
   left: 60px;
-  background: url(../../images/google_developers_icon_128.png) no-repeat 0 50%;
+  background: url(../../images/jm_icon_128.png) no-repeat 0 50%;
   -webkit-background-size: 30px 30px;
   -moz-background-size: 30px 30px;
   -o-background-size: 30px 30px;
@@ -567,7 +567,7 @@ code {
 }
 
 /* line 374, ../scss/default.scss */
-iframe {
+iframe:not(.embedded) {
   width: 100%;
   height: 530px;
   background: white;
@@ -802,6 +802,20 @@ slide.fill {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+slide.containedfill {
+  background-repeat: no-repeat;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-position: center;
 }
 
 /* Size variants */
@@ -1211,8 +1225,8 @@ article.smaller q:before, article.smaller q:after {
 /* ===== SLIDE CONTENT ===== */
 /* line 803, ../scss/default.scss */
 .logoslide img {
-  width: 383px;
-  height: 92px;
+  width: 799px;
+  height: 449px;
 }
 
 /* line 809, ../scss/default.scss */
