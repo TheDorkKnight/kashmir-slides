@@ -363,7 +363,10 @@ SlideDeck.prototype.loadConfig_ = function(config) {
       }
     } else {
       for (var i = 0, p; p = presenters[i]; ++i) {
-        html.push(p.name + ' - ' + p.company);
+        html.push(p.name);
+        if (p.company) {
+          html.push(' - ' + p.company);
+        }
       }
       html = html.join('<br>');
       if (dataConfigContact) {

@@ -23,16 +23,16 @@ var SLIDE_CONFIG = {
   // Author information
   presenters: [{
     name: 'Jake Molnar',
-    company: 'Computer Science',//company: 'Software Developer, jakemolnar.com',
+    company: '',//company: 'Software Developer, jakemolnar.com',
     twitter: '@losttodorkness',
     www: 'http://www.jakemolnar.com',
     github: 'http://github.com/TheDorkKnight'
   }, {
     name: 'Sean Callegari',
-    company: 'Psychology'
+    company: ''
   }, {
     name: 'Nathan Laronde',
-    company: 'Anthropology'
+    company: ''
   }/*, {
     name: 'Second Name',
     company: 'Job Title, Google',
