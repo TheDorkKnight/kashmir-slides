@@ -138,7 +138,7 @@ slides > slide {
       position: absolute;
       bottom: $slide-top-bottom-padding / 2;
       left: $slide-left-right-padding;
-      background: url(../../images/google_developers_icon_128.png) no-repeat 0 50%;
+      background: url(../../images/jm_icon_128.png) no-repeat 0 50%;
       @include background-size($brand-small-icon-size $brand-small-icon-size);
       padding-left: $brand-small-icon-size + 10;
       height: $brand-small-icon-size;
@@ -371,7 +371,7 @@ code {
   color: black;
 }
 
-iframe {
+iframe:not(.embedded) {
   width: 100%;
   height: $slide-height - ($slide-top-bottom-padding * 2) - ($article-content-top-padding * 2);
   background: white;
@@ -527,6 +527,13 @@ slide.fill {
   background-repeat: no-repeat;
   @include border-radius($slide-border-radius);
   @include background-size(cover);
+}
+
+slide.containedfill {
+  background-repeat: no-repeat;
+  @include border-radius($slide-border-radius);
+  @include background-size(contain);
+  background-position: center;
 }
 
 /* Size variants */
