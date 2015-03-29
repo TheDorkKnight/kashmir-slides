@@ -852,23 +852,20 @@ article.smaller p, article.smaller ul {
 }
 
 article.bigger table td, article.bigger table th {
-  font-size: 1.25em;
+  font-size: 30px;
 }
 article.bigger pre {
-  font-size: 1.25em;
-  line-height: 1.25em;
+  font-size: 26px;
+  line-height: 34px;
 }
 article.bigger q {
-  font-size: 1.25em;
-  line-height: 1.5em;
-}
-article.bigger q:before, article.bigger q:after {
-  font-size: 1.25em;
+  font-size: 50px;
+  line-height: 90px;
 }
 
 article.bigger p, article.bigger ul {
-  font-size: 1.25em;
-  line-height: 1.5em;
+  font-size: 30px;
+  line-height: 36px;
 }
 
 /* Builds */
