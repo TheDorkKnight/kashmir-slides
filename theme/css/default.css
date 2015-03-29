@@ -845,6 +845,32 @@ article.smaller q:before, article.smaller q:after {
   font-size: 60px;
 }
 
+article.smaller p, article.smaller ul {
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+
+article.bigger table td, article.bigger table th {
+  font-size: 1.25em;
+}
+article.bigger pre {
+  font-size: 1.25em;
+  line-height: 1.25em;
+}
+article.bigger q {
+  font-size: 1.25em;
+  line-height: 1.5em;
+}
+article.bigger q:before, article.bigger q:after {
+  font-size: 1.25em;
+}
+
+article.bigger p, article.bigger ul {
+  font-size: 1.25em;
+  line-height: 1.5em;
+}
+
 /* Builds */
 /* line 563, ../scss/default.scss */
 .build > * {
