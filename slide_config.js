@@ -2,7 +2,7 @@ var SLIDE_CONFIG = {
   // Slide settings
   settings: {
     title: 'Azad Kashmir<br>Occupied or Free?',
-    subtitle: 'Differring Perspectives on a Border',
+    subtitle: 'Perspectives on a Border',
     //eventInfo: {
     //  title: 'Google I/O',
     //  date: '6/x/2013'
